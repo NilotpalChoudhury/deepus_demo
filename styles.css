@@ -1,0 +1,116 @@
+/* Default dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode header {
+  background-color: #333333;
+}
+
+body.dark-mode .menu-category {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .menu-category h2 {
+  color: #ff5722;
+  border-bottom: 2px solid #ff5722;
+}
+
+body.dark-mode .menu-category li {
+  border-bottom: 1px solid #555555;
+}
+
+/* Default light mode styles (when dark-mode class is removed) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #d32f2f;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.menu-category {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.menu-category h2 {
+  color: #d32f2f;
+  border-bottom: 2px solid #d32f2f;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.menu-category img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-category li {
+  font-size: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-category li:last-child {
+  border-bottom: none;
+}
+
+/* Profile Image Styling */
+.profile-img {
+  width: 100%;
+  height: auto; /* Ensures the image covers the full width and adjusts the height automatically */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the width */
+  margin-bottom: 20px;
+}
+
+/* Dark Mode Button Styling */
+.dark-mode-button {
+  background-color: #ff5722;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.dark-mode-button:hover {
+  background-color: #e64a19;
+}
+
+.dark-mode-button:focus {
+  outline: none;
+}
